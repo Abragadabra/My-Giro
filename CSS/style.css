@@ -16,10 +16,15 @@ html {
 
 .number_block {
     height: 62px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.parent_number {
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .support_number, .support_number_button {
@@ -42,4 +47,41 @@ html {
     font-weight: bold;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.logo, .menu{
+    display: block;
+}
+
+.menu_block{
+    height: 62px;
+}
+
+.parent_menu {
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: center;
+}
+
+.parent_menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu-item {
+    font-size: 14px;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
 }
