@@ -8,3 +8,18 @@ html {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.number_block {
+    height: 62px;
+}
+
+.parent_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
