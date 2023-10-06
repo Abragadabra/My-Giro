@@ -9,6 +9,12 @@ html {
     scroll-behavior: smooth;
 }
 
+header {
+    height: 680px;
+    background: no-repeat rgba(0, 0, 0, .5) url(../IMG/header/bg.jpg);
+    background-blend-mode: darken;
+}
+
 .container {
     max-width: 1100px;
     margin: auto;
@@ -16,7 +22,7 @@ html {
 
 .number_block {
     height: 62px;
-    
+    background-color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -55,6 +61,7 @@ html {
 
 .menu_block{
     height: 62px;
+    background-color: #fff;
 }
 
 .parent_menu {
