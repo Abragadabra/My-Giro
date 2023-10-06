@@ -16,10 +16,12 @@ html {
 
 .number_block {
     height: 62px;
-}
-
-.parent_block {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.support_number, .support_number_button {
+    display: block;
+    
 }
