@@ -231,3 +231,14 @@ header {
 .mailing_form button:hover {
     background-color: #e6e6e6;
 }
+
+.features_cards {
+    display: flex;
+    justify-content:  space-between;
+    margin-top: 28px;
+}
+
+.features_cards_item p {
+    font-size: 20px;
+    line-height: 2;
+}
