@@ -153,10 +153,15 @@ header {
     justify-content: space-between;
 }
 
+.navigate img {
+    user-select: none;
+}
+
 .advantages_cards{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    user-select: none;
 }
 .advantages_cards_item{
     text-align: center;
