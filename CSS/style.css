@@ -113,13 +113,12 @@ header {
     height: 100%;
     width: 523px;
     margin: auto;
-    margin-top: 150px;
+    padding-top: 150px;
     text-align: center;
     align-items: center;
 }
 
 .header_image_block {
-    position: relative;
     height: 556px;
 }
 
@@ -138,4 +137,27 @@ header {
 
 .to_catalog_button button:hover{
     background-color: #a8a8a8;
+}
+
+.margin_class {
+    margin-top: 100px;
+}
+
+.sections h2{
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages_cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.advantages_cards_item{
+    text-align: center;
 }
