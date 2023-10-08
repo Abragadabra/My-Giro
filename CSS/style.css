@@ -161,3 +161,73 @@ header {
 .advantages_cards_item{
     text-align: center;
 }
+
+.about_text {
+    margin-top: 40px;
+}
+
+.about_text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about_text p:last-child {
+    padding-top: 30px;
+}
+
+.mailing{
+    background-color: #ff9700;
+    height: 130px;
+    margin-top: 50px;
+}
+
+.mailing_form{
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+}
+
+.mailing_form form {
+    display: flex;
+    align-items: center;
+}
+.mailing_form p {
+    width: 280px;
+    color: #fff;
+}
+
+.mailing_form input{
+    background-color: #ff9700;
+    border: none;
+    outline: none;
+    border: 2px solid #fff;
+    padding: 10px;
+    height: 40px;
+    width: 190px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.mailing_form input::placeholder {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mailing_form button{
+    background-color: #fff;
+    border: none;
+    color: #000000;
+    height: 40px;
+    width: 190px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mailing_form button:hover {
+    background-color: #e6e6e6;
+}

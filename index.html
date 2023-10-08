@@ -1,121 +1,161 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My-Giro</title>
     <!-- Стили CSS -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css" />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- Верхняя панель шапки -->
-        <div class="number_block">
-            <div class="parent_number container">
-                <p class="support_number">Мы всегда рады помочь по телефону +7 923 398 9013</p>
+      <!-- Верхняя панель шапки -->
+      <div class="number_block">
+        <div class="parent_number container">
+          <p class="support_number">
+            Мы всегда рады помочь по телефону +7 923 398 9013
+          </p>
 
-                <form class="support_number_button " action="callto:+79233989013">
-                    <button type="submit">заказать звонок</button>
-                </form>
-            </div>
-
+          <form class="support_number_button" action="callto:+79233989013">
+            <button type="submit">заказать звонок</button>
+          </form>
         </div>
+      </div>
 
-        <!-- Нижняя панель с меню -->
-        <div class="menu_block">
-            <div class="parent_menu container">
+      <!-- Нижняя панель с меню -->
+      <div class="menu_block">
+        <div class="parent_menu container">
+          <h1 class="logo">
+            <a href="#">My-Giro</a>
+          </h1>
 
-                <h1 class="logo">
-                    <a href="#">My-Giro</a>
-                </h1>
-
-                <nav class="menu">
-                    <a class="menu-item" href="#advantages">ПРЕИМУЩЕСТВА</a>
-                    <a class="menu-item" href="#about">О НАС</a>
-                    <a class="menu-item" href="#features">ОСОБЕННОСТИ</a>
-                    <a class="menu-item" href="#catalog">КАТАЛОГ</a>
-                    <a class="menu-item" href="#team">КОМАНДА</a>
-                    <a class="menu-item" href="#brands">БРЕНДЫ</a>
-                    <a class="menu-item" href="#useful">ПОЛЕЗНОЕ</a>
-                </nav>
-
-            </div>
+          <nav class="menu">
+            <a class="menu-item" href="#advantages">ПРЕИМУЩЕСТВА</a>
+            <a class="menu-item" href="#about">О НАС</a>
+            <a class="menu-item" href="#features">ОСОБЕННОСТИ</a>
+            <a class="menu-item" href="#catalog">КАТАЛОГ</a>
+            <a class="menu-item" href="#team">КОМАНДА</a>
+            <a class="menu-item" href="#brands">БРЕНДЫ</a>
+            <a class="menu-item" href="#useful">ПОЛЕЗНОЕ</a>
+          </nav>
         </div>
+      </div>
 
-        <div class="header_image_block">
-            <div class="header_image_wellcome_text">
-                <h2>My-Giro</h2>
-                <p>
-                    Крупнейший интернет-магазин гироскутеров, сигвеев и электросамокатов от известных мировых
-                    производителей
-                </p>
+      <div class="header_image_block">
+        <div class="header_image_wellcome_text">
+          <h2>My-Giro</h2>
+          <p>
+            Крупнейший интернет-магазин гироскутеров, сигвеев и электросамокатов
+            от известных мировых производителей
+          </p>
 
-                <form class="to_catalog_button" action="#catalog">
-                    <button type="submit">В каталог</button>
-                </form>
-            </div>
+          <form class="to_catalog_button" action="#catalog">
+            <button type="submit">В каталог</button>
+          </form>
         </div>
+      </div>
     </header>
 
-    <div class="sections container">
-        <div class="advantages margin_class">
-            <div class="navigate">
-                <h2 id="advantages" class="section_header">Наши преимущества</h2>
-                <img src="IMG/about/arrows.svg" alt="Стрелки">
-            </div>
-
-            <div class="advantages_cards">
-                <div class="advantages_cards_item">
-                    <img draggable="false" src="IMG/about/quality.png" alt="Гарантия качества">
-                    <p>Гарантия качества</p>
-                </div>
-                <div class="advantages_cards_item">
-                    <img draggable="false" src="IMG/about/delivery.png" alt="Быстрая доставка">
-                    <p>Быстрая доставка</p>
-                </div>
-                <div class="advantages_cards_item">
-                    <img draggable="false" src="IMG/about/assortment.png" alt="Большой ассортимент">
-                    <p>Большой ассортимент</p>
-                </div>
-                <div class="advantages_cards_item">
-                    <img draggable="false" src="IMG/about/consultant.png" alt="Онлайн консультант">
-                    <p>Онлайн консультант</p>
-                </div>
-            </div>
+    <div class="sections">
+      <div class="advantages margin_class container">
+        <div class="navigate">
+          <h2 id="advantages" class="section_header">Наши преимущества</h2>
+          <img src="IMG/about/arrows.svg" alt="Стрелки" />
         </div>
 
-        <div class="about margin_class">
-            <h2 id="about" class="section_header">О нас</h2>
+        <div class="advantages_cards container">
+          <div class="advantages_cards_item">
+            <img
+              draggable="false"
+              src="IMG/about/quality.png"
+              alt="Гарантия качества"
+            />
+            <p>Гарантия качества</p>
+          </div>
+          <div class="advantages_cards_item">
+            <img
+              draggable="false"
+              src="IMG/about/delivery.png"
+              alt="Быстрая доставка"
+            />
+            <p>Быстрая доставка</p>
+          </div>
+          <div class="advantages_cards_item">
+            <img
+              draggable="false"
+              src="IMG/about/assortment.png"
+              alt="Большой ассортимент"
+            />
+            <p>Большой ассортимент</p>
+          </div>
+          <div class="advantages_cards_item">
+            <img
+              draggable="false"
+              src="IMG/about/consultant.png"
+              alt="Онлайн консультант"
+            />
+            <p>Онлайн консультант</p>
+          </div>
         </div>
+      </div>
 
-        <div class="features margin_class">
-            <h2 id="features" class="section_header">Особенности гироскутеров</h2>
+      <div class="about margin_class container">
+        <h2 id="about" class="section_header">О нас</h2>
+        <div class="about_text">
+          <p>
+            В нашем интернет-магазине предствален большой выбор гироскутеров,
+            сигвеев и электросамокатов от известных мировых производителей.
+          </p>
+          
+          <p>
+            Все товары, представленные на нашем сайте, отобраны лучшими
+            специалистами в этой области. Купить гироскутер, электросамокат или
+            сигвей недорого, вы можете в нашем интернет-магазине в любое время,
+            когда вам удобно. Доставка заказов осуществляется бесплатно, в любую
+            точку России.
+          </p>
         </div>
+      </div>
 
-        <div class="catalog margin_class">
-            <h2 id="catalog" class="section_header">Каталог</h2>
+      <div class="mailing">
+        <div class="mailing_form container">
+            <p>
+                Подпишитесь на нашу рассылку и оставайтесь в курсе событий
+            </p>
+            <form action="#">
+                <input type="text" placeholder="Имя">
+                <input type="email" placeholder="Email">
+                <button type="submit">Подписаться</button>
+            </form>
         </div>
+      </div>
 
-        <div class="team margin_class">
-            <h2 id="team" class="section_header">Наши консультанты</h2>
-        </div>
+      <div class="features margin_class container">
+        <h2 id="features" class="section_header">Особенности гироскутеров</h2>
+      </div>
 
-        <div class="brands margin_class">
+      <div class="catalog margin_class container">
+        <h2 id="catalog" class="section_header">Каталог</h2>
+      </div>
 
-        </div>
+      <div class="team margin_class container">
+        <h2 id="team" class="section_header">Наши консультанты</h2>
+      </div>
 
-        <div class="useful margin_class">
-            <h2 id="useful" class="section_header">Полезная информация</h2>
-        </div>
+      <div class="brands margin_class container"></div>
 
+      <div class="useful margin_class container">
+        <h2 id="useful" class="section_header">Полезная информация</h2>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
