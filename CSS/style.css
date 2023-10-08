@@ -55,6 +55,10 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
+.support_number_button button:hover {
+    background-color: #e38d16;
+}
+
 .logo, .menu{
     display: block;
 }
@@ -117,4 +121,21 @@ header {
 .header_image_block {
     position: relative;
     height: 556px;
+}
+
+.to_catalog_button button{
+    background-color: #d9d9d9;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+}
+
+.to_catalog_button button:hover{
+    background-color: #a8a8a8;
 }
