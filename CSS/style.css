@@ -311,3 +311,31 @@ header {
     height: 41px;
     justify-content: space-around;
 }
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.price::after {
+    content: '₽';
+}
+
+.catalog_cards_item img {
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+    margin-top: 15px;
+}
+
+.name{
+    text-align: left;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+}
