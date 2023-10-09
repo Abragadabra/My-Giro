@@ -436,3 +436,53 @@ header {
     background: no-repeat rgba(0, 0, 0, .4) url('../IMG/info/card4.png');
     background-blend-mode: darken;
 }
+
+footer {
+    height: 280px;
+    margin-top: 80px;
+    background-color: #FBFBFB;
+}
+
+footer a {
+    font-size: 14px;
+    color: #8191A6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 280px;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+.footer_left {
+    width: 400px;
+    padding-right: 10px;
+    color: #8191A6;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer_right {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.footer_right h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.copyright {
+    margin-top: 30px;
+}
