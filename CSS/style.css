@@ -249,3 +249,36 @@ header {
     font-size: 20px;
     line-height: 2;
 }
+
+.catalog_parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog_category p {
+    display: block;
+    user-select: none;
+}
+
+.catalog_category p {
+    padding: 10px;
+    transition: ease .1s;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.catalog_category p:hover {
+    background-color: #FF9400;
+    color: #fff;
+}
+
+.catalog_category p:not(:last-child) {
+    margin-right: 20px;
+}
+
+.catalog_category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
