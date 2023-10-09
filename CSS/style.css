@@ -397,3 +397,42 @@ header {
 .item_text button:hover{
     background: #a76b17;
 }
+
+.useful_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.useful_cards_item {
+    width: 225px;
+    height: 225px;
+}
+
+.useful_cards_item p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#userful_card1 {
+    background: no-repeat rgba(0, 0, 0, .4) url('../IMG/info/card1.png');
+    background-blend-mode: darken;
+}
+
+#userful_card2 {
+    background: no-repeat rgba(0, 0, 0, .4) url('../IMG/info/card2.png');
+    background-blend-mode: darken;
+}
+
+#userful_card3 {
+    background: no-repeat rgba(0, 0, 0, .4) url('../IMG/info/card3.png');
+    background-blend-mode: darken;
+}
+
+#userful_card4 {
+    background: no-repeat rgba(0, 0, 0, .4) url('../IMG/info/card4.png');
+    background-blend-mode: darken;
+}
