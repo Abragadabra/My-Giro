@@ -28,13 +28,11 @@
             <p class="support_number">
               Мы всегда рады помочь по телефону +7 923 398 9013
             </p>
-
-            <form class="support_number_button" action="callto:+79233989013">
-              <button type="submit">заказать звонок</button>
-            </form>
+              <button id="open-popup" class="support_number_button" type="submit">заказать звонок</button>
           </div>
         </div>
-
+        
+        
         <!-- Нижняя панель с меню -->
         <div class="menu_block">
           <div class="parent_menu container">
@@ -359,5 +357,33 @@
         </div>
       </div>
     </footer>
+
+    <div class="popup__bg"> 
+      <form class="popup">
+          <img draggable="false" src="IMG/popup/cross.svg" class="close-popup">
+          <label>
+              <input type="text" name="name">
+              <div class="label__text">
+                  Ваше ФИО:
+              </div>
+          </label>
+          <label>
+              <input type="tel" name="tel">
+              <div class="label__text">
+                  Ваш телефон:
+              </div>
+          </label>
+          <label>
+              <textarea name="message"></textarea>
+              <div class="label__text">
+                  Ваше сообщение:
+              </div>
+          </label>
+          <button type="submit">Отправить</button>
+      </form>
+  </div>
+
+  <!-- JS -->
+  <script src="JS/script.js"></script>
   </body>
 </html>
