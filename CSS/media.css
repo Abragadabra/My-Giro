@@ -69,3 +69,88 @@
         font-size: 10px;
     }
 }
+
+@media (max-width: 980px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        width: 70%;
+        
+    }
+
+    .menu a:nth-child(5) {
+        padding-top: 100px;
+    }
+
+    .menu a:nth-child(6) {
+        margin-top: 10px;
+    }
+
+    .menu a:nth-child(7) {
+        margin-top: 10px;
+    }
+
+    .parent_menu h1 {
+        width: 30%;
+    }
+
+    .menu_block{
+        height: 70px;
+    }
+
+    .parent_menu{
+        height: 70px;
+    }
+
+    .advantages_cards_item{
+        width: 100px;
+        height: 100px;
+    }
+
+    .advantages_cards_item img{
+        width: 110px;
+        height: 100px;
+    }
+
+    .mailing_form{
+        flex-wrap: wrap;
+    }
+
+    .features_cards{
+        flex-direction: column;
+    }
+
+    .features_cards_item{
+        margin: 0 auto;
+    }
+
+    .features_cards_item p {
+        width: 350px;
+    }
+
+    .features_cards_item:not(:first-child){
+        margin-top: 20px;
+    }
+
+    .team_cards{
+        flex-direction: column;
+    }
+
+    .team_cards_item{
+        margin: 0 auto;
+        width: 360px;
+    }
+
+    .team_cards_item:not(:first-child){
+        margin-top: 20px;
+    }
+
+    .team_cards_item button{
+        width: 150px;
+        height: 50px;
+        font-size: 17px;
+    }
+}
