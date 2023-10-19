@@ -268,6 +268,9 @@
 }
 
 @media (max-width: 480px){
+    .container {
+        max-width: 400px;
+    }
     .useful_cards {
         display: block;
     }
@@ -288,5 +291,54 @@
 
     .catalog_cards_item{
         width: 350px;
+    }
+
+    .advantages_cards {
+        flex-direction: column;
+    }
+
+    .advantages_cards_item p{
+        display: block;
+    }
+
+    .advantages_cards_item {
+        margin: 0 auto;
+        height: 150px;
+        width: 100px;
+    }
+
+    .parent_number{
+        flex-direction: column;
+        height: 85px;
+    }
+
+    .number_block{
+        height: 85px;
+    }
+
+    .parent_number button{
+        margin-bottom: 10px;
+    }
+
+    .parent_number p{
+        margin-top: 10px;
+    }
+
+    .parent_menu{
+        flex-direction: column;
+    }
+
+    .menu{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .logo{
+        padding-top: 10px;
+    }
+
+    .header_image_wellcome_text {
+        width: 100%;
     }
 }
